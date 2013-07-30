@@ -1,0 +1,4 @@
+Implementation-Version: 3.2.0
+Built-Date: 2013-06-20
+Created-By: Stanford JavaNLP (horatio)
+Main-class: edu.stanford.nlp.classify.ColumnDataClassifier

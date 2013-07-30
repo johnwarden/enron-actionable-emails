@@ -1,0 +1,48 @@
+#
+# Features
+#
+useClassFeature=true
+1.useNGrams=false
+1.useLowercaseSplitWords=true
+1.useSplitWordNGrams=true
+1.maxWordNGramLeng=2
+1.splitWordsRegexp=\\W*\\s(?!\\?)
+
+#2.useNGrams=false
+#2.useLowercaseSplitWords=true
+#2.useSplitWordNGrams=true
+#2.maxWordNGramLeng=1
+#2.splitWordsRegexp=\\W*\\s(?!\\?)
+
+3.useNGrams=false
+3.usePrefixSuffixNGrams=false
+3.useLowercaseSplitWords=true
+3.splitWordsRegexp=\\W*\\s
+
+
+#
+# Printing
+#
+printClassifier=HighWeight
+justify=false
+printClassifierParam=30
+#
+# Mapping
+#
+goldAnswerColumn=0
+displayedColumn=1
+#
+# Optimization
+#
+intern=true
+sigma=3
+useQN=true
+QNsize=15
+tolerance=1e-4
+
+
+#
+# Training input
+#
+trainFile=/tmp/actionable-emails.train
+testFile=/tmp/actionable-emails.test
