@@ -1,7 +1,7 @@
 #!/bin/sh
 
-#wget --no-check-certificate  https://s3.amazonaws.com/rjurney_public_web/images/enron.mysql.5.5.20.sql.gz
-#gunzip https://s3.amazonaws.com/rjurney_public_web/images/enron.mysql.5.5.20.sql.gz
+wget --no-check-certificate  https://s3.amazonaws.com/rjurney_public_web/images/enron.mysql.5.5.20.sql.gz
+gunzip enron.mysql.5.5.20.sql.gz
 mysql5 -u root -p -e 'drop database enron'
 mysql5 -u root -p -e 'create database enron'
 mysql5 -u root -p < /tmp/enron.mysql.5.5.20.sql
